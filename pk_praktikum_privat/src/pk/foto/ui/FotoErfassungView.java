@@ -9,7 +9,6 @@ public class FotoErfassungView extends ErfassungView<Foto> {
 
     public FotoErfassungView(Stage stage) {
         super(stage);
-        // UI-Komponenten wie ein Datei-Auswahl-Dialog können hier erstellt werden
     }
 
 

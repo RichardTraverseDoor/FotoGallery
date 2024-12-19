@@ -2,12 +2,12 @@ package pk.foto.ui;
 
 import javafx.stage.Stage;
 
-public class ErfassungView<T> {
+public abstract class ErfassungView <T> extends Stage {
 	//Fenster
 	private Stage stage;
 	
     public ErfassungView(Stage stage) {
-        this.stage = stage;
+    	
         // Modalität einstellen
         this.stage.initOwner(stage);
         this.stage.initModality(javafx.stage.Modality.WINDOW_MODAL);
@@ -18,7 +18,7 @@ public class ErfassungView<T> {
         return stage.isShowing(); 
     }
 
-    //public abstract T gibNeuesObjekt();
+    
 	
 	
 
